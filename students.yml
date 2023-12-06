@@ -1,0 +1,24 @@
+---
+students: 
+- name: anil
+  phno: 00000000000
+  address: 
+      doorno: 11
+      street: 1
+      pincode: 111111
+
+- name: sunil
+  phno: 11111111111
+  address:
+      doorno: 22
+      street: 2
+      pincode: 222222
+
+
+- name: vinil
+  phno: 22222222222
+  address:
+      doorno: 33
+      street: 3
+      pincode: 333333
+
