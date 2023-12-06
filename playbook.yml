@@ -10,8 +10,13 @@
     apt:
       name: apache2
       state: present
+    when: ansible_os_family =="debian"
 
-  - name: i want to install tree on ubuntu ansible nodes
-    apt:
-       name: tree
-       state: absent       
+  - name: i want to start on ubuntu ansible nodes
+    service:
+       name: apache2
+       state: started
+    when: ansible_os_family =="debian"
+
+
+#   "Redhat" =="debian"
